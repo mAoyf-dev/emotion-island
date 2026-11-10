@@ -2,6 +2,8 @@
 
 和森林里的小伙伴一起认识感受，练习应对。暂面向 6—10 岁儿童与陪伴者设计，原生静态网页，无依赖、无账号、不上传儿童选择。
 
+[在线体验](https://maoyf-dev.github.io/emotion-island/) · [项目说明书](docs/项目说明书.md) · [源码仓库](https://github.com/mAoyf-dev/emotion-island)
+
 **心理教育原型，非诊断或治疗服务。** 已有方法研究不能证明本产品有效。尚未完成有资质人员的逐句审核、儿童可用性试用和临床验证。年龄与体验时长不是确证适用范围。
 
 ## 已实现
@@ -39,7 +41,7 @@ node tests/browser-check.mjs
 3. 推送 main 或手动运行 `Check and deploy static site` workflow。检查通过后发布页面静态文件与 assets 素材目录；测试和文档不会进入网页发布产物。
 4. 发布地址查看 Actions deployment 或仓库 Pages 设置。所有资源使用相对路径，兼容仓库子路径。
 
-当前环境的 GitHub CLI 凭据失效，尚未创建远端仓库或实际验证 Pages 部署。可在终端执行 `gh auth login -h github.com` 恢复授权，不要将令牌发到聊天或提交仓库。
+站点已发布到 GitHub Pages。2026-11-11 已检查线上图片、三个故事主要流程、说明页面及桌面和手机布局，详见[项目说明书的上线检查记录](docs/项目说明书.md#九上线检查记录)。
 
 ## 文件
 - `game.js`：故事内容、纯状态逻辑。
